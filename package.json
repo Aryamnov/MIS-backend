@@ -1,0 +1,25 @@
+{
+  "name": "mis-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aryamnov/MIS-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aryamnov/MIS-backend/issues"
+  },
+  "homepage": "https://github.com/Aryamnov/MIS-backend#readme",
+  "devDependencies": {
+    "prisma": "^4.10.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1"
+  }
+}
