@@ -25,10 +25,10 @@ model Doctors {
 model Schedule {
   id    Int     @id @default(autoincrement())
   doctor_id Int
-  date DateTime
-  time_from DateTime
-  time_to DateTime
-  is_free DateTime
+  date DateTime @db.Date
+  time_from DateTime @db.Timestamp(3)
+  time_to DateTime @db.Timestamp(3)
+  is_free Boolean
   patient_id Int
   type Int
 }

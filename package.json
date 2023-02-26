@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,12 @@
   },
   "homepage": "https://github.com/Aryamnov/MIS-backend#readme",
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "prisma": "^4.10.1"
   },
   "dependencies": {
-    "@prisma/client": "^4.10.1"
+    "@prisma/client": "^4.10.1",
+    "body-parser": "^1.20.2",
+    "find-my-way": "^7.5.0"
   }
 }
